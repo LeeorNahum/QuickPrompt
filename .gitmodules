@@ -1,0 +1,15 @@
+[submodule ".agents/skills/no-em-dashes"]
+	path = .agents/skills/no-em-dashes
+	url = https://github.com/LeeorNahum/no-em-dashes-skill.git
+[submodule ".agents/skills/claude-code-compat"]
+	path = .agents/skills/claude-code-compat
+	url = https://github.com/LeeorNahum/claude-code-compat-skill.git
+[submodule ".agents/skills/skill-sync"]
+	path = .agents/skills/skill-sync
+	url = https://github.com/LeeorNahum/skill-sync-skill.git
+[submodule ".agents/skills/release-versioning"]
+	path = .agents/skills/release-versioning
+	url = https://github.com/LeeorNahum/release-versioning-skill.git
+[submodule ".agents/skills/anti-backrooms"]
+	path = .agents/skills/anti-backrooms
+	url = https://github.com/LeeorNahum/anti-backrooms-skill.git
