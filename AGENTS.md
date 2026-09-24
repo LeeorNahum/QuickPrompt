@@ -13,7 +13,7 @@
 
 - It stays a compiled executable. A `.cmd` entry point runs through `cmd /c`, which cuts the prompt at `&`, breaks on `| < > ^`, and strips `%`. The prompt is read from the raw command line, never from `args[]`, so what was typed reaches Claude unchanged.
 - Nothing is interpreted. Everything after `qp` is the prompt, passed after `--` so text that starts with `-` is not read as flags.
-- The defaults are the product: Opus, high effort, permissions skipped, session named after the folder. No flags, no environment variables, no config file. Someone who wants different defaults edits `qp.cs` and rebuilds.
+- The defaults are the product: Opus, medium effort, permissions skipped, session named after the folder. No flags, no environment variables, no config file. Someone who wants different defaults edits `qp.cs` and rebuilds.
 - Single file, no dependencies, no installer framework.
 
 ## Releasing

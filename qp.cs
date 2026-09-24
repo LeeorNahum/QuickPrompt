@@ -63,7 +63,7 @@ internal static class Qp
         argv.Add("--model");
         argv.Add("opus");
         argv.Add("--effort");
-        argv.Add("high");
+        argv.Add("medium");
         argv.Add("-n");
         argv.Add(sessionName);
         if (prompt.Length > 0)

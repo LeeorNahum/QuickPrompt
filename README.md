@@ -8,7 +8,7 @@
 qp what does this folder do? tldr please
 ```
 
-A terminal opens in that folder running Claude Code on Opus at high effort, with the session named after the folder. Permission prompts are skipped, so use it only in folders you trust. `qp` on its own opens a session there without a prompt.
+A terminal opens in that folder running Claude Code on Opus at medium effort, with the session named after the folder. Permission prompts are skipped, so use it only in folders you trust. `qp` on its own opens a session there without a prompt.
 
 Everything after `qp` is the prompt. There are no flags. From the address bar or Win+R it is sent verbatim, including `&`, `|`, `%`, and quotes. From cmd, PowerShell, or Git Bash it works too, but the shell applies its own quoting rules first.
 
